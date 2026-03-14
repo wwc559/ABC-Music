@@ -97,22 +97,34 @@ w: Be my mir-ror, my sword_ and shield,__ my mis-sion-ar-ies in a for-eign_ fiel
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
-[V:V] "C"  e e e/d/e/(f/|"D"f/) f ((f/ f3/2) g/)|"G/B" g d d/c/c/c/|"Em"c/B/ z B/B/B/B/|
+[V:V] "C"  e e e/d/e/(f/|"D"f/) f ((f/ f3/2) g/)|[1 "G/B" g d d/c/c/c/|"Em"c/B/ z B/B/B/B/|
 w: For some rea-son I can't_ ex-plain,__ once you go,_ there was nev-er, ever an hon-
-w: For some rea-son I can't_ ex-plain,__ I know Saint Peter won't call my name.  Nev-er an
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
-[V:V] "C" (B2 B/) c (A/|"D"A2) z/ D/ A/G/|"G"F/ F (B/B) F/(G/|"Em"(G4)|
+[V:V] [1 "C" (B2 B/) c (A/|"D"A2) z/ D/ A/G/|"G"F/ F (B/B) F/(G/|"Em"(G4)|
 w: - est word__ And that was when I ruled the world.__
-w: - hon-est word_ but that was when I ruled_ the world._
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
-[V:V] "C" G4)|"D"z z/ ((B/B) c/)B/|"G"B//B// A3/2 A2|"Em"z/ B/ B/B/ B/B/ b:|
+[V:V] [1 "C" G4)|"D"z z/ ((B/B) c/)B/|"G"B//B// A3/2 A2|"Em"z/ B/ B/B/ B/B/ b:|
 w: _ Mm__ hmm____ It wa a wic-ked and
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] [2 "G/B" g d d/c/c/c/|"Em"c/B/ z B/B/B/B/|"C" (B2 B/) c (A/|"D"A2) z/ D/ A/G/|
+w: I know Saint Peter won't call my name.  Nev-er an - hon-est word_ but that was
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] [2 "G"F/ F (B/(B2)|B2) z B/B//A//|"Em"(G4)|G3/2 A/G2|
+w: when I ruled__ the world.______
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+% 
+
