@@ -1,0 +1,58 @@
+%%beginsvg
+<defs>
+% x-shaped head
+<path id="x_head"
+d="m -3 -3 l 6 6 m 0 -6 l -6 6"
+class="stroke" style="stroke-width:1.2"/>
+% triangle head
+<path id="triangle"
+d="m -3.5 3.5 l 3.5 -7 l 3.5 7 l -7 0"
+class="fill" />
+% diamond head
+<path id="diamond"
+d="m 0 -3.5 l -3.5 3.5 l 3.5 3.5 l 3.5 -3.5 l -3.5 -3.5"
+class="fill" />
+</defs>
+%%endsvg
+
+%%map drummap ^f heads=x_head 
+%%map drummap g print=g heads=x_head 
+%%map drummap ^g heads=diamond 
+%%map drummap a heads=x_head
+%%map drummap ^a heads=triangle
+
+X: 1
+M: 4/4
+T: Viva La Vida
+C: Coldplay
+L: 1/4
+V:1 clef=perc %right
+V:2 clef=perc stem=down %left
+V:3 clef=perc stem=down %foot
+K: C
+%%score(1 2 3)
+%
+[V:1]
+I:voicemap drummap
+I:MIDI channel 10 
+Z8|x4|x4|x4|x4|x4|x4|x4|x4|
+a/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+a/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+[V:2]
+Z8|
+x4|x4|x4|x4|x4|x4|x4|x4|
+xcxc|xcxc|xcxc|xcxc|
+xcxc|xcxc|xcxc|xcxc|
+[V:3]
+Z8|
+FFFF | FFFF | FFFF | FFFF | 
+w: rule the wo-rld seas would rise when I gave the word. Now in the morning 
+FFFF | FFFF | FFFF | FFFF |
+w: I sleep a-lone, sweep the streets that I used to own_
+Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+
+
+
+
+
