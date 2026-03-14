@@ -1,0 +1,37 @@
+%%percmap =c side-stick
+%%percmap d low-mi-tom % low-mid tom
+%%percmap ^d hi-wo-blo triangle % high wood block
+%%percmap e hi-mi-tom % high-mid tom
+%%percmap ^e cowbell triangle
+%%percmap f high-tom
+%%percmap ^f ride-cymbal-1 x
+%%percmap g closed-hi-hat x
+%%percmap ^g open-hi-hat diamond
+%%percmap a crash-cym-1 x
+%%percmap ^a open-tri triangle
+X: 1
+M: none
+T: Sibelius Drum Legend
+T: https://en.wikipedia.org/wiki/Percussion_notation
+L: 1/4
+V: 1 clef=perc
+K: C
+%
+[V:1 clef=perc]
+%%MIDI channel 10 % activate abc2midi map
+%
+D E F G A |
+w: pedal bass acoustic lowfloor highfloor
+w: hihat drum~1 bass~drum tomtom tomtom
+%
+B ^B c _c ^c |
+w: low tambourine acoustic electric low
+w: tomtom * snare snare wood~block
+%
+=c d ^d e ^e |
+w: side lowmid high highmid cowbell
+w: stick tomtom wood~block tomtom *
+%
+f ^f g ^g a ^a |
+w: high ride closed open crash open
+w: tomtom cymbal~1 hihat hihat cymbal~1 triangle
