@@ -37,8 +37,8 @@ K: G
 [V:V] |: "C"z4|"D"z4|"G"z4|[1 "Em"z4 :|2 "Em"zz/B/BB||
 w: I used to
 [V:DF][I:voicemap drummap][I:MIDI channel 10] |: z4|z4|z4|[1 z4 :|2 zzFF||
-[V:DR][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|z4|[1 x4 :|2 x4||
-[V:DL][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|z4|[1 x4 :|2 x4||
+[V:DR][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|x4|[1 x4 :|2 x4||
+[V:DL][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|x4|[1 x4 :|2 x4||
 %
 [V:V]  "C"B3    c/(A/|"D"A2)  z/AA/|"G"A A/A/ B D/(E/|"Em"E/)B/B/B/ B/B/ B|
 w: rule the worl-d seas would rise when I gave the word. Now in the morn-ing I
@@ -108,23 +108,64 @@ w: - est word__ And that was when I ruled the world.__
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
-%
-[V:V] [1 "C" G4)|"D"z z/ ((B/B) c/)B/|"G"B//B// A3/2 A2|"Em"z/ B/ B/B/ B/B/ b:|
+% Pickup for verse 2
+[V:V] [1 "C" G4)"D"|z z/ ((B/B) c/)B/|"G"B//B// A3/2 A2"Em"|z/ B/ B/B/ B/B/ b:|
 w: _ Mm__ hmm____ It wa a wic-ked and
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
-%
-[V:V] [2 "G/B" g d d/c/c/c/|"Em"c/B/ z B/B/B/B/|"C" (B2 B/) c (A/|"D"A2) z/ D/ A/G/|
+% Out of second chorus
+[V:V] [2 "G/B" g d d/c/c/c/"Em"|c/B/ z B/B/B/B/|"C" (B2 B/) c (A/"D"|A2) z/ D/ A/G/|
 w: I know Saint Peter won't call my name.  Nev-er an - hon-est word_ but that was
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
-[V:V] [2 "G"F/ F (B/(B2)|B2) z B/B//A//|"Em"(G4)|G3/2 A/G2|
-w: when I ruled__ the world.______
+[V:V] [2 "G"F/ F (B/(B2)"Em"|B2) z B/B//A//|"C"(G4"Em"|G3/2) A/(G2||
+w: when I ruled__ the world._____
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/||
+[V:DL] xcxc|xcxc|xcxc|xcxc||
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/||
+% Outtro
+[V:V] "C"G2) z z/ (G/"Em"|G/) A (B/B) d/(d/|"C"d3) z"Em"|z/d (d/d) d/(g/|
+w: _ Yeah , I rul-ed the world._ I ruled the world_
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
-% 
-
+%
+[V:V] "D"g4)|z/B/ d/(g/g) f/(e/|"C"e2) e3/2 d/"D"|z/ B/ e/(g/ g) f/[gd]//g//|"G"d2d3/2B/"Em"|
+w: _ (Whoa,________ Whoa._________
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] z/B/ d/(g/ g) f/([e/g/]|"C"[e2g2]) e3/2 d/"D"|z/B/ d/(g/ g)e/(d/|"G"(d2) d3/2) B/"Em"|gzz/g3/2|
+w: Whoa,________ Whoa,________ Oh,
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+% Chorus
+[V:V]  "C" e e e/d/e/(d/|"D"d) A/(B/ B/)c/ z|"G" d d d/B/D/(B/|"Em"B) E/(F/ F/)G/ z|
+w: hear Je-ru-sa-lem bells_ are ring-ing;_ Ro-man Cath-o-lic choirs_ are sing-ing._
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] "C"  e e e/d/e/(d/|"D"d) A/(B/ B/)c c/|"G" d/B/ d d/B/d/(B/|"Em"B/) E (F/ F/)G/ z|
+w: Be my mir-ror, my sword_ and shield,__ my mis-sion-ar-ies in a for-eign_ field_
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] "C"  e e e/d/e/(f/|"D"f/) f ((f/ f3/2) g/)|
+w: For some rea-son I can't_ ex-plain,__ 
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] "G/B" g d d/c/c/c/"Em"|c/B/ z B/B/B/B/|"C" (B2 B/) c (A/"D"|A2) z/ D/ A/G/|
+w: I know Saint Peter won't call my name.  Nev-er an - hon-est word_ but that was
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
