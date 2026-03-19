@@ -15,8 +15,9 @@ class="fill" />
 </defs>
 %%endsvg
 
+
 %%map drummap ^f heads=x_head 
-%%map drummap g print=g heads=x_head 
+%%map drummap g print=g heads=x_head
 %%map drummap ^g heads=diamond 
 %%map drummap a heads=x_head
 %%map drummap ^a heads=triangle
@@ -33,6 +34,7 @@ V:DL clef=perc stem=down %left
 V:DR clef=perc %right
 K: G
 %%score V (DL DR DF)
+%%measurenb 0
 %
 [V:V] |: "C"z4|"D"z4|"G"z4|[1 "Em"z4 :|2 "Em"zz/B/BB||
 w: I used to
@@ -41,7 +43,7 @@ w: I used to
 [V:DL][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|x4|[1 x4 :|2 x4||
 %
 [V:V]  "C"B3    c/(A/|"D"A2)  z/AA/|"G"A A/A/ B D/(E/|"Em"E/)B/B/B/ B/B/ B|
-w: rule the worl-d seas would rise when I gave the word. Now in the morn-ing I
+w: rule the worl-d seas would rise when I gave the word. Now in the morn-ing I_
 [V:DF] F F F F    | F F F F | F F F F | F F F F | 
 [V:DR] x x x x    | x x x x | x x x x | x x x x |
 [V:DL] x x x x    | x x x x | x x x x | x x x x |
@@ -52,22 +54,26 @@ w: sleep_ a----lone, sweep the streets that I used to own___
 [V:DR] x x x x              | x x x x | x x x x | x x x x |
 [V:DL] x x x x              | x x x x | x x x x | x x x x |
 % Verse
-[V:V]  "C"z4|"D"z4|"G"z4|"Em"zz/B/BB|
-w: I used to
-[V:DF] F F F F              | F F F F | F F F F | x x F F | 
-[V:DR] x x x x              | x x x x | x x x x | x x x x |
-[V:DL] g g g g              | g g g g | g g g g | x x/a/ g g |
+[V:V]  "C"z4|"D"z4|"G"z4|
+w: 
+[V:DF] F F F F              | F F F F | F F F F |
+[V:DR] x x x x              | x x x x | x x x x |
+[V:DL] g g g g              | g g g g | g g g g | 
 %
-[V:V]  |: "C"B3    c/(A/|"D"A2)  z/A/A/G/|"G"A A/A/ A/A/B/(G/|"Em"F/) E/ B/B/ B/B/B/B/|
-w: role the dice_ feel _ the fear in my en-e-my's eyes____ lis-ten as the
-w: wild_ wind,_ blew down the doors_ to let_ me in._ Shat-er-ed win-dows and the
-[V:DF] |: Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
-[V:DL] |: xcxc|xcxc|xcxc|xcxc|
-[V:DR] |: g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+[V:V]  "Em"zz/B/BB |: "C"B3  c/(A/|"D"A2)  z/A/A/G/|
+w: I used to role the dice_ feel _ the 
+w: z z z wild_ wind,_ blew down the
+[V:DF] xxFF |: Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] x x x x |: xcxc|xcxc|xcxc|xcxc|
+[V:DR] x x/a/ g g |: g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] "G"A A/A/ A/A/B/(G/|"Em"F/) E/ B/B/ B/B/B/B/|
+w: fear in my en-e-my's eyes____ lis-ten as the
+w: doors_ to let_ me in.__ Shat-ered win-dows and the
 %
 [V:V]  "C"(B2B/) e(d/|"D"d2)zB/B/|"G"d/G/G/(G/ G/) e d/|"Em"G/G/ z/e/ e/e/e/e/| 
-w: crowd would sing__ "Now the old king is dead!_ long live the king One minute I
-w: sound_ of drums;_ peo-ple could-n't be-lieve_ what I'd be-come Rev-o-lu-tion-
+w: crowd would sing__ "Now the old king is dead!_ long live the king One minute I__
+w: sound_ of drums;_ peo-ple could-n't be-lieve_ what I'd be-come Rev-o-lu-tion-_
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
@@ -80,25 +86,25 @@ w: ar-ies wait_ for my head on a sil--ver_ plate._ Just a pup-pet on a
 %
 [V:V]  "C"(B2B/) c(A/|"D"A)zz/F/G|"G"A/A/F/(G/ G/)D/A/A/|"Em"D/G3/2 zz/G/| 
 w: cas-tles stand__ up-on pil-lars of salt_ and pil-lars of sand. I
-w: lone-ly string;__ oh,_ who would ev-er wan-na be king!_
+w: lone-ly string;__ oh,_ who would ev-er wan-na be king!__ I
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 % Chorus
-[V:V]  "C" e e e/d/e/(d/|"D"d) A/(B/ B/)c/ z|"G" d d d/B/D/(B/|"Em"B) E/(F/ F/)G/ z|
+[V:V]  "C" e e e/d/e/(d/|"D"d) A/(B/ B/)c/ z|"G" d d d/B/d/(B/|"Em"B) E/(F/ F/)G/ z|
 w: hear Je-ru-sa-lem bells_ are ring-ing;_ Ro-man Cath-o-lic choirs_ are sing-ing._
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
 [V:V] "C"  e e e/d/e/(d/|"D"d) A/(B/ B/)c c/|"G" d/B/ d d/B/d/(B/|"Em"B/) E (F/ F/)G/ z|
-w: Be my mir-ror, my sword_ and shield,__ my mis-sion-ar-ies in a for-eign_ field_
+w: Be my mir-ror, my sword_ and shield,__ my mis-sion-ar-ies in a for-eign_ field__
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
 [V:V] "C"  e e e/d/e/(f/|"D"f/) f ((f/ f3/2) g/)|[1 "G/B" g d d/c/c/c/|"Em"c/B/ z B/B/B/B/|
-w: For some rea-son I can't_ ex-plain,__ once you go,_ there was nev-er, ever an hon-
+w: For some rea-son I can't_ ex-plain,__ once you go,_ there was nev-er, ever an hon--
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
@@ -116,7 +122,7 @@ w: _ Mm__ hmm____ It wa a wic-ked and
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 % Out of second chorus
 [V:V] [2 "G/B" g d d/c/c/c/"Em"|c/B/ z B/B/B/B/|"C" (B2 B/) c (A/"D"|A2) z/ D/ A/G/|
-w: I know Saint Peter won't call my name.  Nev-er an - hon-est word_ but that was
+w: I know Saint Peter won't call my name.  Nev-er an - hon-est word_ but that was_
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
@@ -140,32 +146,32 @@ w: _ (Whoa,________ Whoa._________
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
 [V:V] z/B/ d/(g/ g) f/([e/g/]|"C"[e2g2]) e3/2 d/"D"|z/B/ d/(g/ g)e/(d/|"G"(d2) d3/2) B/"Em"|gzz/g3/2|
-w: Whoa,________ Whoa,________ Oh,
+w: Whoa,________ Whoa,_________ Oh,
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 % Chorus
-[V:V]  "C" e e e/d/e/(d/|"D"d) A/(B/ B/)c/ z|"G" d d d/B/D/(B/|"Em"B) E/(F/ F/)G/ z|
+[V:V]  "C" e e e/d/e/(d/|"D"d) A/(B/ B/)c/ z|"G" d d d/B/d/(B/|"Em"B) d/(c/ c/)B/ z|
 w: hear Je-ru-sa-lem bells_ are ring-ing;_ Ro-man Cath-o-lic choirs_ are sing-ing._
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
-[V:V] "C"  e e e/d/e/(d/|"D"d) A/(B/ B/)c c/|"G" d/B/ d d/B/d/(B/|"Em"B/) E (F/ F/)G/ z|
-w: Be my mir-ror, my sword_ and shield,__ my mis-sion-ar-ies in a for-eign_ field_
+[V:V] "C"  e e e/d/e/(f/|"D"f/) d (d/d) z/f/|"G" g/d/ d d/c/B/(c/|"Em"c/) B (B/ B) z|
+w: Be my mir-ror, my sword_ and shield,_ my mis-sion-ar-ies in a for-eign_ field_
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
-[V:V] "C"  e e e/d/e/(f/|"D"f/) f ((f/ f3/2) g/)|
-w: For some rea-son I can't_ ex-plain,__ 
-[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|
-[V:DL] xcxc|xcxc|
-[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
-%
-[V:V] "G/B" g d d/c/c/c/"Em"|c/B/ z B/B/B/B/|"C" (B2 B/) c (A/"D"|A2) z/ D/ A/G/|
-w: I know Saint Peter won't call my name.  Nev-er an - hon-est word_ but that was
+[V:V] "C"  e e e/d/e/(f/|"D"f/) d (d/ d) z/f/|"G/B" g d d/c/c/c/"Em"|B/B3/2 z/ B/B/B/|
+w: For some rea-son I can't_ ex-plain,_ I know Saint Pet-er won't call my name. Nev-er an
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+%
+[V:V] "C" (B2 B/) c (A/"D"|A2) z/ D/ A/G/| "D"F/F (B/B) F/G/"Em"|G4|]
+w: an  hon-est word_ but that was when I rul-ed the world._
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|]
+[V:DL] xcxc|xcxc|xcxc|xcxc|]
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|]
 %
