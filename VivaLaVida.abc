@@ -32,30 +32,35 @@ V:V clef=treble
 V:DF clef=perc stem=down %foot
 V:DL clef=perc stem=down %left
 V:DR clef=perc %right
+V:VI clef=treble
 K: G
-%%score V (DR DL DF)
+%%score V (DR DL DF) VI
 %%measurenb 0
 %
 [V:V] |: "C"z4|"D"z4|"G"z4|[1 "Em"z4 :|2 "Em"zz/B/BB||
 w: I used to
-[V:DF][I:voicemap drummap][I:MIDI channel 10] |: z4|z4|z4|[1 z4 :|2 zzFF||
+[V:VI] |:"^Violin"CCCC/(D/|D/)DD/DD|GGGG/(E/|E/)EE/EE:|xxxx|
+[V:DF][I:voicemap drummap][I:MIDI channel 10] |: "^Drums"z4|z4|z4|[1 z4 :|2 zzFF||
 [V:DR][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|x4|[1 x4 :|2 x4||
 [V:DL][I:voicemap drummap][I:MIDI channel 10] |: x4|x4|x4|[1 x4 :|2 x4||
 %
 [V:V]  "C"B3    c/(A/|"D"A2)  z/AA/|"G"A A/A/ B D/(E/|"Em"E/)B/B/B/ B/B/ B|
 w: rule the worl-d seas would rise when I gave the word. Now in the morn-ing I_
+[V:VI] CCCC/(D/|D/)DD/DD|GGGG/E/|D/B/B/B/ B/B/B/B/|
 [V:DF] F F F F    | F F F F | F F F F | F F F F | 
 [V:DR] x x x x    | x x x x | x x x x | x x x x |
 [V:DL] x x x x    | x x x x | x x x x | x x x x |
 %
 [V:V]  "C"(B2B/)((c/ c//)B//A/)|"D"A2z/AG/|"G"A A/G/ A B/G/|"Em"F/ D3/2 D2| 
 w: sleep_ a----lone, sweep the streets that I used to own___
+[V:VI] B3c/(A/              |(A2) A/)A/A/A/|AAAB/(G/|G/)FE2z|
 [V:DF] F F F F              | F F F F | F F F F | F F F F | 
 [V:DR] x x x x              | x x x x | x x x x | x x x x |
 [V:DL] x x x x              | x x x x | x x x x | x x x x |
 % Verse
 [V:V]  "C"z4|"D"z4|"G"z4|
 w: 
+[V:VI] CCC/(D|D/)DD/DD|GGGG/(E/|
 [V:DF] F F F F              | F F F F | F F F F |
 [V:DR] x x x x              | x x x x | x x x x |
 [V:DL] g g g g              | g g g g | g g g g | 
@@ -63,19 +68,24 @@ w:
 [V:V]  "Em"zz/B/BB |: "C"B3  c/(A/|"D"A2)  z/A/A/G/|
 w: I used to role the dice_ feel _ the 
 w: * * * wild_ wind,_ blew down the
-[V:DF] xxFF |: Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
-[V:DL] x x x x |: xcxc|xcxc|xcxc|xcxc|
-[V:DR] x x/a/ g g |: g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+[V:VI] D/B/B/B/ B/B/B/B/|B3c/(A/              |(A2) A/)A/A/A/
+[V:DF] xxFF |: Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] x x x x |: xcxc|xcxc|
+[V:DR] x x/a/ g g |: g/g/g/g/ g/g/g/g/|
 %
 [V:V] "G"A A/A/ A/A/B/(G/|"Em"F/) E/ B/B/ B/B/B/B/|
 w: fear in my en-e-my's eyes____ lis-ten as the
 w: doors_ to let_ me in.__ Shat-ered win-dows and the
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
 [V:V]  "C"(B2B/) e(d/|"D"d2)zB/B/|"G"d/G/G/(G/ G/) e d/|"Em"G/G/ z/e/ e/e/e/e/| 
 w: crowd would sing__ "Now the old king is dead!_ long live the king One minute I__
 w: sound_ of drums;_ peo-ple could-n't be-lieve_ what I'd be-come Rev-o-lu-tion-_
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
-[V:DL] xcxc|xcxc|xcxc|xcxc|[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+[V:DL] xcxc|xcxc|xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
 [V:V]  "C"e3    c/(d/|"D"d) z z/ d d/|"G"d d/B/ (d/c/)(c/B/)|"Em"B/D/B/B/ B/B/B/B/|
 w: held the key_ next the walls_ were_ closed on_ me and  I dis-cov-ered that my
