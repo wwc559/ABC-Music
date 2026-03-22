@@ -1,0 +1,77 @@
+%%beginsvg
+<defs>
+% x-shaped head
+<path id="x_head"
+d="m -3 -3 l 6 6 m 0 -6 l -6 6"
+class="stroke" style="stroke-width:1.2"/>
+% triangle head
+<path id="triangle"
+d="m -3.5 3.5 l 3.5 -7 l 3.5 7 l -7 0"
+class="fill" />
+% diamond head
+<path id="diamond"
+d="m 0 -3.5 l -3.5 3.5 l 3.5 3.5 l 3.5 -3.5 l -3.5 -3.5"
+class="fill" />
+</defs>
+%%endsvg
+
+% D Pedal High-hat
+% F Kick
+% G low floor tom
+% A high floor tom *
+% B low tom
+% c snare
+% d low mid tom *
+% e high mid tom *
+% f high tom
+% ^f ride
+% g closed high hat
+% ^g open high hat
+% a crash
+
+%%map drum ^f heads=x_head 
+%%map drum g print=g heads=x_head
+%%map drum ^g heads=diamond 
+%%map drum a heads=x_head
+%%map drum ^a heads=triangle
+%%map drum D heads=x_head
+
+X: 1
+M: 4/4
+T: Core Practice Sets
+C: Steven Clark
+L: 1/4
+Q: 1/4 = 90
+K:
+V:DF clef=perc stem=down %foot
+V:DL clef=perc stem=down %left
+V:DR clef=perc %right
+%%score (DR DL DF)
+%%measurenb 0
+[V:DR][I:voicemap drum][I:MIDI Channel 10] |: "^Flow exercises, play with each hand alone"  ycedA|cedA:| y40|:"^Snare-HiTom"cece|cece:|
+[V:DR]|:"^Snare-MidTom"cdcd|cdcd:| y40|:"^Snare-FloorTom"cAcA|cAcA:| 
+[V:DR]|:"^HiTom-MidTom"eded|eded:| y40|:"HiTom-FloorTom"eAeA|eAeA:| 
+[V:DR]|:"^MidTom-FloorTom"dAdA|dAdA:| y40|:"^Eights all around"c/c/e/e/ d/d/A/A/|c/c/e/e/ d/d/A/A/:|
+[V:DL][I:voicemap drum][I:MIDI Channel 10] xxxxxxxxxxxxxxxx
+[V:DL] xxxxxxxxxxxxxxxx
+[V:DL] xxxxxxxxxxxxxxxx
+[V:DL] xxxxxxxxxxxxxxxx
+[V:DF][I:voicemap drum][I:MIDI Channel 10] xxxxxxxxxxxxxxxx
+[V:DF] xxxxxxxxxxxxxxxx
+[V:DF] xxxxxxxxxxxxxxxx
+[V:DF] xxxxxxxxxxxxxxxx
+%
+[V:DL] |: xcxc|xcxc :||: xcxc|xcxc :|
+[V:DR] |: "^Coordination exercises, 3-way"g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/ :|y40|: gggg|gggg :|
+[V:DF] |: FxFx|FxFx :||: FxFx|FxFx :|
+%
+[V:DL] |: xcxc|xcxc :|
+[V:DR] |: x/g/ x/g/ x/g/ x/g/|x/g/ x/g/ x/g/ x/g/:|y290
+[V:DF] |: FxFx|FxFx :|
+%
+[V:DL] |: x[cD]x[cD]|x[cD]x[cD] :| FcFc|FcFc
+[V:DR] |: "Coordination exercises, 4-way"g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/:|y40|: g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/:|
+[V:DF] |: [FD]x[FD]x|[FD]x[FD]x :||:D/D/D/D/ D/D/D/D/| D/D/D/D/ D/D/D/D/ :|
+
+
+
