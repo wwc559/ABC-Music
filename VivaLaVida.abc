@@ -33,7 +33,7 @@ V:DF clef=perc stem=down %foot
 V:DL clef=perc stem=down %left
 V:DR clef=perc %right
 K: G
-%%score V (DL DR DF)
+%%score V (DR DL DF)
 %%measurenb 0
 %
 [V:V] |: "C"z4|"D"z4|"G"z4|[1 "Em"z4 :|2 "Em"zz/B/BB||
@@ -62,7 +62,7 @@ w:
 %
 [V:V]  "Em"zz/B/BB |: "C"B3  c/(A/|"D"A2)  z/A/A/G/|
 w: I used to role the dice_ feel _ the 
-w: z z z wild_ wind,_ blew down the
+w: * * * wild_ wind,_ blew down the
 [V:DF] xxFF |: Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] x x x x |: xcxc|xcxc|xcxc|xcxc|
 [V:DR] x x/a/ g g |: g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
