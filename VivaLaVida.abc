@@ -34,7 +34,7 @@ V:DL clef=perc stem=down %left
 V:DR clef=perc %right
 V:VI clef=treble
 K: G
-%%score V (DR DL DF) VI
+%%score V VI (DR DL DF)
 %%measurenb 0
 %
 [V:V] |: "C"z4|"D"z4|"G"z4|[1 "Em"z4 :|2 "Em"zz/B/BB||
@@ -68,7 +68,7 @@ w:
 [V:V]  "Em"zz/B/BB |: "C"B3  c/(A/|"D"A2)  z/A/A/G/|
 w: I used to role the dice_ feel _ the 
 w: * * * wild_ wind,_ blew down the
-[V:VI] D/B/B/B/ B/B/B/B/|B3c/(A/              |(A2) A/)A/A/A/
+[V:VI] D/)B/B/B/ B/B/B/B/|B3c/(A/              |(A2) A/)A/A/A/|
 [V:DF] xxFF |: Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] x x x x |: xcxc|xcxc|
 [V:DR] x x/a/ g g |: g/g/g/g/ g/g/g/g/|
@@ -76,13 +76,15 @@ w: * * * wild_ wind,_ blew down the
 [V:V] "G"A A/A/ A/A/B/(G/|"Em"F/) E/ B/B/ B/B/B/B/|
 w: fear in my en-e-my's eyes____ lis-ten as the
 w: doors_ to let_ me in.__ Shat-ered win-dows and the
-[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
-[V:DL] xcxc|xcxc|xcxc|xcxc|
-[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
+[V:VI] GGGG/(E/|E/)EE/EE|
+[V:DF] Fx/F/F/xx/|Fx/F/F/xx/|
+[V:DL] xcxc|xcxc|
+[V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
 %
 [V:V]  "C"(B2B/) e(d/|"D"d2)zB/B/|"G"d/G/G/(G/ G/) e d/|"Em"G/G/ z/e/ e/e/e/e/| 
 w: crowd would sing__ "Now the old king is dead!_ long live the king One minute I__
 w: sound_ of drums;_ peo-ple could-n't be-lieve_ what I'd be-come Rev-o-lu-tion-_
+[V:VI] CCCC/(D/|D/)DD/DD|GGGG/E/|D/B/B/B/ B/B/B/B/|
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
@@ -90,6 +92,7 @@ w: sound_ of drums;_ peo-ple could-n't be-lieve_ what I'd be-come Rev-o-lu-tion-
 [V:V]  "C"e3    c/(d/|"D"d) z z/ d d/|"G"d d/B/ (d/c/)(c/B/)|"Em"B/D/B/B/ B/B/B/B/|
 w: held the key_ next the walls_ were_ closed on_ me and  I dis-cov-ered that my
 w: ar-ies wait_ for my head on a sil--ver_ plate._ Just a pup-pet on a
+[V:VI] B3c/(A/              |A2)A/A/A/A/|AAAB/(G/|G/)FE2z|
 [V:DF] Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|Fx/F/F/xx/|
 [V:DL] xcxc|xcxc|xcxc|xcxc|
 [V:DR] g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|g/g/g/g/ g/g/g/g/|
